@@ -42,15 +42,23 @@ using namespace viva;
 int main(int argc, const char * argv[])
 {
     vector<string> images;
+    string baseUrl="/Users/niudong/projects/detection3D-master/input"; // 这里修改成自己相应的路径
+
+    Feat::Code feat = Feat::FAST;
+    Desc::Code desc = Desc::BRIEF;
+    images.push_back(baseUrl+"/bottle/01.jpeg");
+    images.push_back(baseUrl+"/bottle/02.jpeg");
+    images.push_back(baseUrl+"/bottle/03.jpeg");
+
     //images.push_back("model.bmp");
     
-    Feat::Code feat = Feat::RFAST;
-    Desc::Code desc = Desc::BRIEF;
-    images.push_back("cup.orot.r/02.jpg");
-    images.push_back("cup.orot.r/06.jpg");
-    images.push_back("cup.orot.r/10.jpg");
-    images.push_back("cup.orot.r/14.jpg");
-    images.push_back("cup.orot.r/18.jpg");
+//    Feat::Code feat = Feat::RFAST;
+//    Desc::Code desc = Desc::BRIEF;
+//    images.push_back("cup.orot.r/02.jpg");
+//    images.push_back("cup.orot.r/06.jpg");
+//    images.push_back("cup.orot.r/10.jpg");
+//    images.push_back("cup.orot.r/14.jpg");
+//    images.push_back("cup.orot.r/18.jpg");
     
 
 //    Feat::Code feat = Feat::FAST;

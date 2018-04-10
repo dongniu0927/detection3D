@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/niudong/projects/detection3D-master/detectionlib/SPaRTa.c
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+limits.h
+-
+math.h
+-
+
+/Users/niudong/projects/detection3D-master/detectionlib/SPaRTaSSE.c
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+limits.h
+-
+math.h
+-
+emmintrin.h
+-
+
