@@ -1,1 +1,1 @@
-/Users/niudong/资源/detection3D/input/
+/Users/niudong/projects/detection3D/input/
