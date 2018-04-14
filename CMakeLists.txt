@@ -5,6 +5,8 @@ PROJECT("${PROJECT_NAME}")
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+set(OpenCV_DIR D:/Libraries/opencv/opencv2.4.13/build/x86/vc14/lib)
+
 # add opencv package to the project
 FIND_PACKAGE( OpenCV REQUIRED )
 INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} ) 
